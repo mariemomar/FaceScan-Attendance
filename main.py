@@ -26,7 +26,7 @@ def findEncodings(images):
     return encodingList
 
 encodeKnownImages = findEncodings(images)
-# print(len(encodeKnownImages))
+print(len(encodeKnownImages))
 
 marked_names = set()
 
