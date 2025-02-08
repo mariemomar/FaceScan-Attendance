@@ -9,7 +9,7 @@ images = []
 
 path = 'Faces'
 my_list = os.listdir(path)
-# print(my_list)
+print(my_list)
 
 for i in my_list :
     current_img = cv2.imread(f'{path}/{i}')
